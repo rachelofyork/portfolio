@@ -2,10 +2,20 @@
 
     font-family: 'Poppins', sans-serif;*/
 
-h1 {
-  font-family: "Playfair Display", serif;
+.navbar {
+  background-color: whitesmoke;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+.hero {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
 }
