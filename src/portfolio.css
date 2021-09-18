@@ -11,6 +11,7 @@
 body {
   background-color: #fafafa;
   font-family: "Playfair Display", serif;
+  display: flex;
 }
 
 .navbar {
@@ -23,20 +24,23 @@ body {
 }
 
 .nav-link {
-  margin-left: 50px;
+  justify-content: stretch;
 }
 
 .hero {
   text-align: center;
   background-color: var(--secondary-color);
+  width: 100%;
 }
 
 h1 {
   font-size: 72px;
+  margin: 10px;
 }
 
 h2 {
   font-size: 48px;
+  margin: 10px;
 }
 
 .social-link {
