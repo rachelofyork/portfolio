@@ -1,5 +1,4 @@
 /*font-family: 'Playfair Display', serif;
-
     font-family: 'Poppins', sans-serif;*/
 
 :root {
@@ -52,7 +51,7 @@ h2 {
 }
 
 .project-images {
-  width: 400px;
+  width: 100%;
   height: auto;
   padding: 20px;
   text-align: center;
@@ -76,31 +75,12 @@ h2 {
 
   h2 {
     font-size: 28px;
-    line-height: 0.5;
-  }
-
-  .hero {
-    margin-bottom: 0;
-    padding-bottom: 0;
   }
 
   .projects {
     font-size: 20px;
-  }
-
-  .photo-project {
-    padding: 0px;
-    text-align: center;
-  }
-
-  .weather-project {
-    margin-top: 60px;
-    padding: 0px;
-    text-align: center;
-  }
-
-  .portfolio-project {
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
     text-align: center;
   }
 }
