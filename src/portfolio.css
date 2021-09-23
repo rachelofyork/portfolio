@@ -46,21 +46,34 @@ h2 {
   text-align: center;
   padding-top: 50px;
   margin-bottom: 50px;
-  display: flex;
-  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.photography {
+  padding-top: 75px;
+}
+
+.portfolio {
+  padding-top: 75px;
 }
 
 .project-images {
-  width: 100%;
+  width: 700px;
   height: auto;
-  padding: 20px;
-  text-align: center;
+  padding-bottom: 20px;
   display: flex;
-  border-radius: 30px;
 }
 
 .project-buttons {
   border: solid 1px;
+  background-color: var(--tertiary-color);
+  color: #fafafa;
+  transition: 250ms;
+}
+
+.project-buttons:hover {
+  background-color: #fafafa;
+  color: var(--tertiary-color);
 }
 
 .social-link {
@@ -79,8 +92,13 @@ h2 {
 
   .projects {
     font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
+  }
+
+  .photography {
+    padding-top: 5px;
+  }
+
+  .weather {
+    padding-top: 75px;
   }
 }
