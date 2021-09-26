@@ -114,6 +114,12 @@ h2 {
   .cert-h2 {
     font-size: 40px;
   }
+
+  .project-page-img {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 .about-me-h1,
@@ -132,9 +138,5 @@ h2 {
 }
 
 .cert-h2 {
-  text-align: center;
-}
-
-.projects.grid {
   text-align: center;
 }
