@@ -61,30 +61,27 @@
 <h1 class="contact-h1">Contact Me</h1>
 <h2 class="text-center mt-4">I would love to hear from you!</h2>
 
-<div class="container py-4">
+<div class="container contact-container py-4">
 <form id="contactForm" 
 action="https://formspree.io/f/mrgrjwwb" method="POST">
   
 <div class="mb-3">
-      <label class="form-label" for="name">Name</label>
-      <input class="form-control" id="name" type="text" placeholder="Name"/>
+      <label class="form-label" name="name">Name<span class="text-danger">*</span> </label>
+      <input class="form-control" id="name" name="name" type="text" placeholder="Name" required=""/>
       
     </div>
  <div class="mb-3">
-      <label class="form-label" for="emailAddress">Email Address</label>
-      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+      <label class="form-label" name="emailAddress">Email Address<span class="text-danger">*</span></label>
+      <input class="form-control" id="emailAddress" name="email-address" type="email" placeholder="Email Address" required=""/>
     </div>
     <div class="mb-3">
-      <label class="form-label" for="message">Message</label>
-      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+      <label class="form-label" name="message">Message<span class="text-danger">*</span></label>
+      <textarea class="form-control" id="message" name="message" type="text" placeholder="Message" required="" style="height: 10rem;"></textarea>
     </div>
     
-    <div class="d-none" id="submitErrorMessage">
-      <div class="text-center text-danger mb-3">Something went wrong - please try again!</div>
-    </div>
 
     <div class="d-grid">
-      <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+      <button class="btn all-buttons btn-lg" type="submit">Submit</button>
     </div>
 
 
@@ -124,7 +121,13 @@ action="https://formspree.io/f/mrgrjwwb" method="POST">
       </div>
     
     </footer>
-
+<script>
+  window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+</script>
 
 </body>
 </html>
