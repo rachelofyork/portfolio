@@ -19,7 +19,7 @@ body {
 }
 
 .nav-link {
-  justify-content: stretch;
+  text-align: right;
 }
 
 .hero {
@@ -65,7 +65,7 @@ h2 {
   border: solid 1px;
   background-color: var(--tertiary-color);
   color: #fafafa;
-  transition: 250ms;
+  transition: all 100ms ease-in-out;
 }
 
 .all-buttons:hover {
