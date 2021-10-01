@@ -77,6 +77,33 @@ h2 {
   font-size: 50px;
 }
 
+.about-me-h1,
+.projects-h1,
+.contact-h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 20px;
+}
+
+.projects-link {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.contact-submit-button {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 50px;
@@ -90,10 +117,8 @@ h2 {
 
   .projects {
     font-size: 20px;
-  }
-
-  .photography {
-    padding-top: 5px;
+    padding: 20px;
+    margin: 0;
   }
 
   .weather {
@@ -127,29 +152,8 @@ h2 {
   }
 }
 
-.about-me-h1,
-.projects-h1,
-.contact-h1 {
-  margin-top: 100px;
-  text-align: center;
-}
-
-.about-text {
-  font-size: 20px;
-}
-
-.projects-link {
-  display: flex;
-  justify-content: center;
-}
-
-.contact-container {
-  max-width: 800px;
-  margin-bottom: 20px;
-}
-
-.contact-submit-button {
-  width: 200px;
-  display: block;
-  margin: 0 auto;
-}
+@media (max-width: 576px) {
+  .my-name {
+    line-height: 1;
+  }
+} ;
