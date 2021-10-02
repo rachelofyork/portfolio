@@ -126,14 +126,15 @@ h2 {
   }
 
   .my-photo {
-    max-width: 200px;
-    margin-right: 100px;
-    margin-left: 100px;
+    display: none;
+  }
+
+  .about-content {
+    padding-bottom: 5px;
   }
 
   .about-text {
     text-align: center;
-    margin-top: 50px;
   }
 
   .cert-h2 {
@@ -155,5 +156,9 @@ h2 {
 @media (max-width: 576px) {
   .my-name {
     line-height: 1;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
   }
 } ;
