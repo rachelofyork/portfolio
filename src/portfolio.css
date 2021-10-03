@@ -105,6 +105,9 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  body {
+    max-width: 800px;
+  }
   h1 {
     font-size: 50px;
     line-height: 0.5;
@@ -141,10 +144,9 @@ h2 {
     font-size: 40px;
   }
 
-  .project-page-img {
-    max-width: 400px;
-    margin: 0 auto;
-    display: block;
+  .projects-grid {
+    max-width: 800px;
+    padding: 20px;
   }
 
   .contact-container {
