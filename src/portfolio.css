@@ -128,7 +128,8 @@ h2 {
   .projects {
     font-size: 20px;
     padding: 20px;
-    margin: 0;
+    margin: 0 auto;
+    display: block;
   }
 
   .weather {
