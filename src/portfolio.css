@@ -171,8 +171,21 @@ h2 {
     line-height: 1;
   }
 
+  .weather {
+    margin-top: 10px;
+    padding-top: 15px;
+  }
+  .react-weather {
+    margin-top: 30px;
+  }
+
   .about-text {
     margin: 0px;
+  }
+
+  .skills-list {
+    word-spacing: 5px;
+    margin: 10px;
   }
 
   .navbar-brand {
